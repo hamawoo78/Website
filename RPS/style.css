@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Tilt+Prism&display=swap');
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-family: 'Tilt Prism', cursive;
+  text-align: center;
+  background-color: #000000;
+  color:white;
+  font-size:55px;
+}
+
+
+#container{
+/*   border: solid blue; */
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1px;
+}
+
+img{
+  width: 100%;
+}
+
+#hand_btn{
+/*   border: solid red; */
+  padding: 1.5rem;
+}
+
+#btn_basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hand_btn button{
+  background-color: #000000;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Tilt Prism', cursive;
+  padding: 0 1.6rem;
+}
+
+
+
+#winner{
+  font-family: 'Tilt Prism', cursive;
+  width: 100%;
+  text-align: center;
+  color:white;
+  font-size:50px;
+  padding: 5px;
+}
+
+#messages{
+  font-family: 'Gajraj One', cursive;
+  color:white;
+  font-size:20px;
+  text-align: center;
+/*   border: solid blue; */
+  padding:20px;
+}
+
+
+#playAgainId{
+  font-family: 'Gajraj One', cursive;
+  color:white;
+  font-size:20px;
+  text-align: center;
+  align-items: center;
+  background-color: #595959;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#playAgainId:hover{
+  background-color: #808080;
+}
